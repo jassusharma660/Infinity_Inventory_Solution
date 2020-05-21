@@ -1618,7 +1618,6 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jLabel18" alignment="0" min="-2" max="-2" attributes="0"/>
                               <Component id="jLabel19" alignment="0" min="-2" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                   <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
@@ -1629,7 +1628,7 @@
                                   <Component id="jLabel17" alignment="0" max="32767" attributes="0"/>
                               </Group>
                           </Group>
-                          <EmptySpace pref="397" max="32767" attributes="0"/>
+                          <EmptySpace pref="464" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -1648,11 +1647,9 @@
                           <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jLabel17" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
-                          <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
                           <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace pref="277" max="32767" attributes="0"/>
+                          <EmptySpace pref="291" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -1687,7 +1684,7 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="18" style="0"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="Just set up infinity(The software) on a computer new the cash counter and manager all your inventory. "/>
+                    <Property name="text" type="java.lang.String" value="Just set up infinity(The software) on a cash counter computer and manager all your inventory. "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel16">
@@ -1704,14 +1701,6 @@
                       <Font name="Segoe UI" size="18" style="0"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="You can manage your inventory, sales, stocks and your staff."/>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JLabel" name="jLabel18">
-                  <Properties>
-                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Segoe UI" size="14" style="0"/>
-                    </Property>
-                    <Property name="text" type="java.lang.String" value="This software is developed in Dezign Suite, Mohali"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel19">

@@ -319,7 +319,6 @@ public class AdminDashboard extends javax.swing.JFrame {
         jLabel13 = new javax.swing.JLabel();
         jLabel16 = new javax.swing.JLabel();
         jLabel17 = new javax.swing.JLabel();
-        jLabel18 = new javax.swing.JLabel();
         jLabel19 = new javax.swing.JLabel();
         peoplePanel = new javax.swing.JPanel();
         tabContentLabel7 = new javax.swing.JLabel();
@@ -1250,16 +1249,13 @@ public class AdminDashboard extends javax.swing.JFrame {
         jLabel8.setText("If you were doing everything manually before then it is a good start.");
 
         jLabel13.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel13.setText("Just set up infinity(The software) on a computer new the cash counter and manager all your inventory. ");
+        jLabel13.setText("Just set up infinity(The software) on a cash counter computer and manager all your inventory. ");
 
         jLabel16.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel16.setText("What can you do?");
 
         jLabel17.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         jLabel17.setText("You can manage your inventory, sales, stocks and your staff.");
-
-        jLabel18.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel18.setText("This software is developed in Dezign Suite, Mohali");
 
         jLabel19.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel19.setText("Code managed and developed by Jassu Sharma");
@@ -1271,7 +1267,6 @@ public class AdminDashboard extends javax.swing.JFrame {
             .addGroup(aboutPanelLayout.createSequentialGroup()
                 .addGap(56, 56, 56)
                 .addGroup(aboutPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel18)
                     .addComponent(jLabel19)
                     .addGroup(aboutPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                         .addComponent(jLabel8)
@@ -1280,7 +1275,7 @@ public class AdminDashboard extends javax.swing.JFrame {
                         .addComponent(jLabel13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jLabel16)
                         .addComponent(jLabel17, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                .addContainerGap(397, Short.MAX_VALUE))
+                .addContainerGap(464, Short.MAX_VALUE))
         );
         aboutPanelLayout.setVerticalGroup(
             aboutPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1297,11 +1292,9 @@ public class AdminDashboard extends javax.swing.JFrame {
                 .addComponent(jLabel16)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel17)
-                .addGap(41, 41, 41)
-                .addComponent(jLabel18)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(53, 53, 53)
                 .addComponent(jLabel19)
-                .addContainerGap(277, Short.MAX_VALUE))
+                .addContainerGap(291, Short.MAX_VALUE))
         );
 
         content.add(aboutPanel, "card5");
@@ -2336,7 +2329,6 @@ public class AdminDashboard extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
-    private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
