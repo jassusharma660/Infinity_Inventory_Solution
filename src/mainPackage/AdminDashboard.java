@@ -2227,7 +2227,7 @@ public class AdminDashboard extends javax.swing.JFrame {
 
     private void goToLinkedin(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_goToLinkedin
         try {
-            String url = "https://www.linkedin.com/in/jassu-sharma-b40619b0";
+            String url = "https://www.linkedin.com/in/jassusharma660";
             java.awt.Desktop.getDesktop().browse(java.net.URI.create(url));
         } catch (java.io.IOException e) {}
     }//GEN-LAST:event_goToLinkedin
