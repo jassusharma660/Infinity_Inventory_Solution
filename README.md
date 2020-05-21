@@ -1,6 +1,5 @@
-# Infinity_Inventory_Solution
 An inventory management system with login, register, dashboard and much more.
-
+---
 ## How to setup
   1. Clone the repository by ```git clone https://github.com/jassusharma660/Infinity_Inventory_Solution.git```
   
@@ -8,11 +7,16 @@ An inventory management system with login, register, dashboard and much more.
   >**NOTE:** This project was made in **NetBeans IDE 8.2**
   
   Select the repository folder name ```Infinity_Inventory_Solution``` and click Open Project button.
-  
-![1](https://github.com/jassusharma660/Infinity_Inventory_Solution/blob/master/guide/1.JPG)   
+     
+<p align="center">
+  <img width="70%" src="https://github.com/jassusharma660/Infinity_Inventory_Solution/blob/master/guide/1.JPG">
+</p>
+<p align="center">
+  <img width="70%" src="https://github.com/jassusharma660/Infinity_Inventory_Solution/blob/master/guide/2.JPG">
+</p>
 
   3. Now **run** the project.   
-  
+---
 ## Database setup
 
 ```This required mysql to be installed.```
@@ -30,13 +34,74 @@ An inventory management system with login, register, dashboard and much more.
   ````
 
 ## Screenshot
-![2](https://github.com/jassusharma660/Infinity_Inventory_Solution/blob/master/guide/2.JPG)   
-![3](https://github.com/jassusharma660/Infinity_Inventory_Solution/blob/master/guide/3.JPG)   
-![4](https://github.com/jassusharma660/Infinity_Inventory_Solution/blob/master/guide/4.JPG)   
-![5](https://github.com/jassusharma660/Infinity_Inventory_Solution/blob/master/guide/5.JPG)   
-![6](https://github.com/jassusharma660/Infinity_Inventory_Solution/blob/master/guide/6.JPG)   
-![7](https://github.com/jassusharma660/Infinity_Inventory_Solution/blob/master/guide/7.JPG)   
-![8](https://github.com/jassusharma660/Infinity_Inventory_Solution/blob/master/guide/8.JPG)   
-![9](https://github.com/jassusharma660/Infinity_Inventory_Solution/blob/master/guide/9.JPG)   
-![10](https://github.com/jassusharma660/Infinity_Inventory_Solution/blob/master/guide/10.JPG)   
-![11](https://github.com/jassusharma660/Infinity_Inventory_Solution/blob/master/guide/11.JPG)   
+---
+>### Login Page
+
+<p align="center">
+  <img width="70%" src="https://github.com/jassusharma660/Infinity_Inventory_Solution/blob/master/guide/3.JPG">
+</p>   
+
+---
+>### Registration Page
+
+<p align="center">
+  <img width="40%"src="https://github.com/jassusharma660/Infinity_Inventory_Solution/blob/master/guide/4.JPG">
+</p>   
+ 
+---
+>### Dashboard 
+
+<p align="center">
+  <img width="70%" src="https://github.com/jassusharma660/Infinity_Inventory_Solution/blob/master/guide/5.JPG">
+</p>
+
+---
+>### Stocks Page
+
+<p align="center">
+  <img width="70%" src="https://github.com/jassusharma660/Infinity_Inventory_Solution/blob/master/guide/6.JPG">
+</p>
+
+---
+>### Add Product 
+
+<p align="center">
+  <img width="40%" src="https://github.com/jassusharma660/Infinity_Inventory_Solution/blob/master/guide/7.JPG">
+</p>
+
+---
+>### Add Category
+
+<p align="center">
+  <img width="40%" src="https://github.com/jassusharma660/Infinity_Inventory_Solution/blob/master/guide/8.JPG">
+</p>
+
+---
+>### User management
+
+<p align="center">
+  <img width="70%" src="https://github.com/jassusharma660/Infinity_Inventory_Solution/blob/master/guide/9.JPG">
+</p>
+ 
+---
+>### Settings
+
+<p align="center">
+  <img width="70%" src="https://github.com/jassusharma660/Infinity_Inventory_Solution/blob/master/guide/10.JPG">
+</p>
+
+---
+>### Notifications
+
+<p align="center">
+  <img width="70%" src="https://github.com/jassusharma660/Infinity_Inventory_Solution/blob/master/guide/11.JPG">
+</p>
+
+---
+>### About Page
+
+<p align="center">
+  <img width="70%" src="https://github.com/jassusharma660/Infinity_Inventory_Solution/blob/master/guide/12.JPG">
+</p>
+
+---
