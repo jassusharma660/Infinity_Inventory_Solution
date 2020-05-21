@@ -230,7 +230,6 @@ public class AdminDashboard extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, "Some error occured!" + e);
         }
     }
-    
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -320,6 +319,9 @@ public class AdminDashboard extends javax.swing.JFrame {
         jLabel16 = new javax.swing.JLabel();
         jLabel17 = new javax.swing.JLabel();
         jLabel19 = new javax.swing.JLabel();
+        jLabel18 = new javax.swing.JLabel();
+        jLabel29 = new javax.swing.JLabel();
+        jLabel31 = new javax.swing.JLabel();
         peoplePanel = new javax.swing.JPanel();
         tabContentLabel7 = new javax.swing.JLabel();
         peopleArea = new javax.swing.JPanel();
@@ -1260,6 +1262,24 @@ public class AdminDashboard extends javax.swing.JFrame {
         jLabel19.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel19.setText("Code managed and developed by Jassu Sharma");
 
+        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/github.png"))); // NOI18N
+        jLabel18.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel18.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                goToGithub(evt);
+            }
+        });
+
+        jLabel29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/linkedin.png"))); // NOI18N
+        jLabel29.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel29.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                goToLinkedin(evt);
+            }
+        });
+
+        jLabel31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/jassusharma.png"))); // NOI18N
+
         javax.swing.GroupLayout aboutPanelLayout = new javax.swing.GroupLayout(aboutPanel);
         aboutPanel.setLayout(aboutPanelLayout);
         aboutPanelLayout.setHorizontalGroup(
@@ -1274,8 +1294,14 @@ public class AdminDashboard extends javax.swing.JFrame {
                         .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jLabel13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jLabel16)
-                        .addComponent(jLabel17, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                .addContainerGap(464, Short.MAX_VALUE))
+                        .addComponent(jLabel17, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(aboutPanelLayout.createSequentialGroup()
+                        .addComponent(jLabel31)
+                        .addGap(33, 33, 33)
+                        .addComponent(jLabel18)
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel29)))
+                .addContainerGap(2576, Short.MAX_VALUE))
         );
         aboutPanelLayout.setVerticalGroup(
             aboutPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1292,10 +1318,20 @@ public class AdminDashboard extends javax.swing.JFrame {
                 .addComponent(jLabel16)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel17)
-                .addGap(53, 53, 53)
+                .addGap(79, 79, 79)
+                .addGroup(aboutPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel31)
+                    .addGroup(aboutPanelLayout.createSequentialGroup()
+                        .addGap(28, 28, 28)
+                        .addGroup(aboutPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jLabel29)
+                            .addComponent(jLabel18))))
+                .addGap(27, 27, 27)
                 .addComponent(jLabel19)
-                .addContainerGap(291, Short.MAX_VALUE))
+                .addContainerGap(2959, Short.MAX_VALUE))
         );
+
+        jLabel18.getAccessibleContext().setAccessibleName("");
 
         content.add(aboutPanel, "card5");
 
@@ -2095,7 +2131,7 @@ public class AdminDashboard extends javax.swing.JFrame {
 
     private void searchData() {
         
-        ArrayList<Item> itemsList= new ArrayList<Item>();
+        ArrayList<Item> itemsList= new ArrayList<>();
         String searchText = searchProduct.getText();
         
         if(!searchText.equals("")) {
@@ -2181,6 +2217,20 @@ public class AdminDashboard extends javax.swing.JFrame {
             ap.setVisible(true);
         }
     }//GEN-LAST:event_editBtnMouseClicked
+
+    private void goToGithub(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_goToGithub
+        try {
+            String url = "https://github.com/jassusharma660/";
+            java.awt.Desktop.getDesktop().browse(java.net.URI.create(url));
+        } catch (java.io.IOException e) {}
+    }//GEN-LAST:event_goToGithub
+
+    private void goToLinkedin(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_goToLinkedin
+        try {
+            String url = "https://www.linkedin.com/in/jassu-sharma-b40619b0";
+            java.awt.Desktop.getDesktop().browse(java.net.URI.create(url));
+        } catch (java.io.IOException e) {}
+    }//GEN-LAST:event_goToLinkedin
 
     private void setAsAdminMouseClicked(java.awt.event.MouseEvent evt) {
         JPanel jpanel = (JPanel) evt.getSource();
@@ -2329,6 +2379,7 @@ public class AdminDashboard extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
@@ -2340,7 +2391,9 @@ public class AdminDashboard extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel26;
     private javax.swing.JLabel jLabel27;
     private javax.swing.JLabel jLabel28;
+    private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel31;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
